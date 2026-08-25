@@ -1,0 +1,15 @@
+Google clone page
+BASICO
+
+1- commit
+-----------------
+1- HTML
+2- CSS
+3- pasta img
+-----------------
+2- commit
+----------------
+1- google fonts
+2- fontwesone 
+3-  favicon https://realfavicongenerator.net/
+4- remove bg - https://www.remove.bg/pt-br/upload
