@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <script src="https://kit.fontawesome.com/e555ee61bf.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/293abf4b96.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Google</title>
 </head>
 
@@ -19,8 +19,8 @@
     <header>
       <nav class="top-nav">
         <ul class="top-nav-menu">
-          <li class="top-nav-maenu-li">
-            <a class="top-nav-link">
+          <li class="top-nav-menu-li">
+            <a class="top-nav-link mobile-link">
               <i class="fa-solid fa-bars fa-lg"></i>
             </a>
           </li>
@@ -29,10 +29,10 @@
             <div class="underline"></div>
           </li>
           <li class="top-nav-menu-li">
-            <a class="top-nav-link  mobile-link mobile-sm">IMAGES</a>
+            <a class="top-nav-link mobile-link mobile-sm">IMAGES</a>
           </li>
-          <li class="top-nav-maenu-li">
-            <a class="top-nav-link  desktop-link">About</a>
+          <li class="top-nav-menu-li">
+            <a class="top-nav-link desktop-link">About</a>
           </li>
           <li class="top-nav-menu-li">
             <a class="top-nav-link desktop-link">Store</a>
@@ -43,7 +43,7 @@
             <a class="top-nav-link desktop-link">Gmail</a>
           </li>
           <li class="top-nav-menu-li">
-            <a class="top-nav-link desktop-link ">Images</a>
+            <a class="top-nav-link desktop-link">Images</a>
           </li>
           <li class="top-nav-menu-li">
             <a class="top-nav-link mobile-link mobile-sm">
@@ -69,10 +69,68 @@
             <a class="top-nav-link sign-in-btn">Sign in</a>
           </li>
         </ul>
-
       </nav>
     </header>
+    <section class="search-area">
+      <img src="img/google-logo.png" alt="google logo" class="google-logo-img">
+      <form class="search-form">
+        <button class="icon-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input type="text" class="search-input">
+        <div class="search-icons-container">
+          <button class="icon-btn">
+            <i class="fa-solid fa-microphone fa-lg"></i>
+          </button>
+          <button class="icon-btn">
+            <i class="fa-solid fa-camera fa-lg"></i>
+          </button>
+          <div class="ai-mode-container">
+            <button class="icon-btn">
+              <i class="fa-solid fa-user-gear fa-lg"></i>
+            </button>
+            <p class="ai-p">AI Mode</p>
+          </div>
+        </div>
+      </form>
+      <div class="search-btn-container">
+        <button class="search-btn">Google Search</button>
+        <button class="search-btn">I'm Feeling Lucky</button>
+      </div>
+    </section>
   </div>
+  <footer>
+    <div class="footer-menus-container">
+      <ul class="footer-links-menu">
+        <li class="footer-li">
+          <a class="footer-link">Advertising</a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link">Business</a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link">How Search works</a>
+        </li>
+      </ul>
+      <ul class="footer-links-menu">
+        <li class="footer-li">
+          <img src="img/footer-leaf.png" class="footer-leaf">
+          <a class="footer-link">Applying AI towards science and the environment</a>
+        </li>
+      </ul>
+      <ul class="footer-links-menu">
+        <li class="footer-li">
+          <a class="footer-link">Privacy</a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link">Terms</a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link">Settings</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
